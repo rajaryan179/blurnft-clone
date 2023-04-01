@@ -14,7 +14,7 @@ MORALIS_API_KEY= YOU KEY HERE
 
 4. `npm start`
 
-5. Open a new terminal and type `cd ../frontend`
+5. Open a new terminal and type `cd frontend`
 
 6. `npm install`
 
