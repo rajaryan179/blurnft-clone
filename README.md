@@ -24,4 +24,6 @@ MORALIS_API_KEY= YOU KEY HERE
 const chain = "0x89"; // change this to your chain, 0x1 for Ethereum, 0x89 for Mumbai, 0x5 for Goerli
 ```
 
-7. `npm run dev`
+8. Go to `contracts/index.js` and change the contract address and abi to your contract
+
+9. `npm run dev`
