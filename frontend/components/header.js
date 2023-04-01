@@ -31,6 +31,7 @@ export default function Header() {
       <section className={styles.nav}>
         <section className={styles.nav_items}>
           <p>COLLECTIONS</p>
+
           <Link href="/portfolio" className={styles.link}>
             <p>PORTFOLIO</p>
           </Link>

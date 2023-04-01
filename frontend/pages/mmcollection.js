@@ -4,7 +4,7 @@ import CollectionHeader from "../components/collectionHeader.js";
 import MMCollectionHeroSection from "../components/mmCollectionHeroSection.js";
 import MMCollectionPurchaseSection from "../components/mmCollectionPurchaseSection.js";
 
-export default function ViewCollection() {
+export default function MMCollection() {
   return (
     <section className={styles.container}>
       <section>

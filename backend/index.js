@@ -38,7 +38,7 @@ app.get("/getnftdata", async (req, res) => {
       return res.status(200).json(response);
     }
   } catch (e) {
-    console.log(`Somthing went wrong ${e}`);
+    console.log(`Something went wrong ${e}`);
     return res.status(400).json();
   }
 });
@@ -46,7 +46,7 @@ app.get("/getnftdata", async (req, res) => {
 app.get("/getcontractnft", async (req, res) => {
   try {
     const { query } = req;
-    const chain = query.chain == "0x5" ? "0x5" : "0x1";
+    const chain = query.chain ?? "0x1";
 
     const response = await Moralis.EvmApi.nft.getContractNFTs({
       chain,

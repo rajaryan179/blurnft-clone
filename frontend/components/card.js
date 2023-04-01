@@ -11,7 +11,7 @@ export default function CardComp(props) {
   const [nft, setNft] = useState(JSON.parse(props.uri.metadata));
   const [nftImage, setNftImage] = useState(() => {
     if (nft?.image) {
-      return nft.image.include("ipfs")
+      return nft.image.includes("ipfs")
         ? `https://ipfs.io/ipfs/${nft.image.split("ipfs://")[1]}`
         : nft.image.split("\\")[0];
     }
