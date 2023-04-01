@@ -18,10 +18,10 @@ MORALIS_API_KEY= YOU KEY HERE
 
 6. `npm install`
 
-7. Go components/getNfts.js and change the chain
+7. Go `components/getNfts.js` and change the chain
 
 ```js
-const chain = "0x89"; // change this to your chain, 0x1, 0x89 for Mumbai, 0x5 for Goerli
+const chain = "0x89"; // change this to your chain, 0x1 for Ethereum, 0x89 for Mumbai, 0x5 for Goerli
 ```
 
 7. `npm run dev`
