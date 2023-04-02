@@ -101,7 +101,7 @@ export default function HeroSection() {
           />
           <p>Checks VV Originals</p>
         </section>
-        <Link href="/viewcollection">
+        <Link href="/viewCollection">
           <section className={styles.carousel_section}>
             <Image
               src={Azuki}
