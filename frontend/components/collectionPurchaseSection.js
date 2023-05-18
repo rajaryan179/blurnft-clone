@@ -13,7 +13,7 @@ export default function CollectionPurchaseSection() {
     const getNftData = async () => {
       const response = await axios.get("http://localhost:5001/getcontractnft", {
         params: {
-          contractAddress: "0xED5AF388653567Af2F388E6224dC7C4b3241C544",
+          contractAddress: "0xEfA93791c96E937c224DaD4D88f510a62e25C342",
         },
       });
 

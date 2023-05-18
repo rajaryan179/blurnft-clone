@@ -39,7 +39,7 @@ export default function MMCollectionPurchaseSection() {
       value: price,
     },
     functionName: "createMarketSale",
-    args: ["0x6017c7326F37F1acA0eF204Ccf9Fc5B6F27D891a", id],
+    args: ["0xEfA93791c96E937c224DaD4D88f510a62e25C342", id],
   });
   const { write } = useContractWrite(config);
 
@@ -47,7 +47,7 @@ export default function MMCollectionPurchaseSection() {
     const getNftData = async () => {
       const response = await axios.get("http://localhost:5001/getcontractnft", {
         params: {
-          contractAddress: "0x6017c7326F37F1acA0eF204Ccf9Fc5B6F27D891a",
+          contractAddress: "0xEfA93791c96E937c224DaD4D88f510a62e25C342",
           chain: "0x5",
         },
       });
