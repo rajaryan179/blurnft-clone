@@ -30,7 +30,7 @@ export default function CardComp(props) {
   const handleSubmit = async () => {
     try {
       const tx = await NftMarketplace.createMarketItem(
-        "0xEfA93791c96E937c224DaD4D88f510a62e25C342",
+        "0xEd5AB4A2BAfCBC406526a9573e10B221D91714aC",
         props.uri.token_id,
         nftPrice
       );
